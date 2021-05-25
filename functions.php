@@ -1,6 +1,6 @@
 <?php
 
-if ( !function_exists( 'sanitize_array_field' ) ) {
+if ( !function_exists( 'sanitize_array_field2' ) ) {
     function sanitize_array_field( $array ) {
         
         if( is_array( $array ) ){
