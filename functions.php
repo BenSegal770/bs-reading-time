@@ -4,13 +4,7 @@ if ( !function_exists( 'sanitize_array_field' ) ) {
     function sanitize_array_field( $array ) {
         
         if( is_array( $array ) ){
-            foreach ( $array as &$value ) {
-                if ( is_array( $value ) ) {
-                    $value = sanitize_array_field( $value );
-                }
-                else {
-                    $value = sanitize_text_field( $value );
-                }
+            echo 'bla';
             }
             
             return $array;
