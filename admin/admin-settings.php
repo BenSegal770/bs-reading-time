@@ -51,7 +51,7 @@ function rd_settings_form()
     $post_types = get_post_types();
  
 ?>
-<h1>הגדרות השו"ת</h1>
+<h1>Reading Time Settings</h1>
 
 <form method="post" action="">
     <table>
